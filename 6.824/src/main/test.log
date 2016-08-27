@@ -1,0 +1,9 @@
+=== RUN   TestBasic
+RunWorker /var/tmp/824-1000/mr19784-worker1
+/var/tmp/824-1000/mr19784-master: Starting Map/Reduce task test
+Schedule: 100 Map tasks (50 I/Os)
+RunWorker /var/tmp/824-1000/mr19784-worker0
+Register: worker /var/tmp/824-1000/mr19784-worker1
+Register: worker /var/tmp/824-1000/mr19784-worker0
+*** Test killed with quit: ran too long (10m0s).
+FAIL	mapreduce	600.004s
