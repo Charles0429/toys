@@ -5,10 +5,10 @@
 #include <string>
 
 inline uint32_t decode_fixed32(const char* ptr) {
-	// Load the raw bytes
-	uint32_t result;
-	memcpy(&result, ptr, sizeof(result));  // gcc optimizes this to a plain load
-	return result;
+  // Load the raw bytes
+  uint32_t result;
+  memcpy(&result, ptr, sizeof(result));  // gcc optimizes this to a plain load
+  return result;
 }
 
 uint32_t hash_func(const char* data, size_t n, uint32_t seed) {
